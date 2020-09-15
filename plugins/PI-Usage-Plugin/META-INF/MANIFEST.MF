@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PI-Usage-Simulizar
+Bundle-SymbolicName: PI-Usage-Simulizar;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: pi.usage.simulizar.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.apache.log4j,
+ org.palladiosimulator.simulizar;bundle-version="4.2.0",
+ de.uka.ipd.sdq.simucomframework;bundle-version="4.3.0",
+ de.uka.ipd.sdq.simucomframework.variables,
+ mpcm.paradigm.activitysequence.usage;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: PI.Usage.Simulizar
+Bundle-ActivationPolicy: lazy
+Export-Package: pi.usage.simulizar
